@@ -17,7 +17,7 @@ body {
 }
 
 .titulo {
-    text-align: center;
+    text-align:center;
     font-size: 3.8rem;
     color:var(--oscuro);
     
@@ -27,4 +27,13 @@ body {
 span {
     font-size: 2rem;
     color: var(--oscuro);
+}
+.navegacion-principal {
+    background-color: var(--secundario);
+}
+.nav-bg {
+    .contenedor {
+        width: 120rem;
+        margin: 0 auto;
+    }
 }
