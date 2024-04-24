@@ -14,16 +14,28 @@ html {
 }
 body {
     font-size: 16px; /* 1rem = 10ps*/
+    background-image: linear-gradient(to top, #dfe9f3 0%, var(--blanco) 100%);
 }
+/*Globales*/
 h1 {
     font-size: 3.8rem;
 }
 h2 {
-    
+    font-size: 2.8rem;
 }
 h3 {
-    
+    font-size: 1.8rem;
 }
+h1,h2,h3 {
+    text-align: center;
+}
+.sombras {
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(66,66,66,1);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(66,66,66,1);
+    box-shadow: 0px 5px 15px 0px rgba(66,66,66,1);
+    background-color: var(--blanco);
+}
+/* Titulos*/
 .titulo {
     text-align:center;
     color:var(--oscuro);
@@ -35,16 +47,7 @@ span {
     font-size: 2rem;
     color: var(--oscuro);
 }
-.navegacion-principal {
-
-}
-.nav-bg {
-    background-color: var(--secundario);
-}
-.contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
-}
+/* Navegacion Principal*/
 .navegacion-principal a { /* la a es para decirle que le haga algo a los enlaces que estan en navegacion principal*/
     display:block;
     text-align: center;
@@ -69,6 +72,25 @@ span {
     background-color: var(--primario);
     color: var(--oscuro);
 }
+.nav-bg {
+    background-color: var(--secundario);
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.boton {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
 @media (min-width:768px) {
     .navegacion-principal {
         flex-direction: row;
