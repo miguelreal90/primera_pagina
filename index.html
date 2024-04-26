@@ -57,7 +57,7 @@
 
                 <p>El clima es el estado promedio de la atmósfera en un área específica durante un período prolongado de tiempo.</p>
             </section>
-            <section class="servicio>
+            <section class="servicio">
                 <h3>Aplicaciones Web</h3>
                 <div class="icono">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -94,35 +94,38 @@
                 <p>El clima es el estado promedio de la atmósfera en un área específica durante un período prolongado de tiempo.</p>
             </section>
         </div>
-
-    </main>
     <section>
         <h2>Contacto</h2>
-        <form>
+        <form class="formulario">
             <fieldset>
-                <legend>Contacte LLenando todos los campos</legend>
-                <div>
-                    <label>Nombre</label>
-                    <input type="text" placeholder="Tu Nombre">
+                <legend class="legend">Contacte LLenando todos los campos</legend>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu Nombre">
+                    </div>
+                    <div class="campo">
+                        <label>Telefono</label>
+                        <input class="input-text" type="number" placeholder="tu Numero">
+                    </div>
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input class="input-text" type="email" placeholder="tu Correo">
+                    </div>
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
+                </div> <!--contenedor de los campos-->
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sn-100" type="submit" value="Enviar">
                 </div>
-                <div>
-                    <label>Telefono</label>
-                    <input type="number" placeholder="tu Numero">
-                </div>
-                <div>
-                    <label>Nombre</label>
-                    <input type="email" placeholder="tu Correo">
-                </div>
-                <div>
-                    <label>Mensaje</label>
-                    <textarea></textarea>
-                </div>
-                <input type="submit" value="Enviar">
                 
             </fieldset>
         </form>
     </section>
-    <footer>
+    </main>
+    <footer class="footer">
         <p>Todos los derechos reservados, Miguel Villamizar Freelancer</p>
     </footer>
     
