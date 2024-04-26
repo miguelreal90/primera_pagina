@@ -223,7 +223,7 @@ html {
 }
 
 .campo {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;/**hola**/
 }
 .campo label {
     color: var(--blanco);
